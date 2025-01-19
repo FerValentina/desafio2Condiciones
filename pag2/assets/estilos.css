@@ -1,0 +1,36 @@
+* {
+    margin: 0
+}
+body{
+    background-color: aquamarine;
+}
+img {
+    /* margin: 50px; */
+    width: 250px;
+    height: 250px; 
+    /* transition: border 0.3s ease;  */
+    transition: all 0.3s ease;
+  }
+.stickerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+
+}
+img:hover{
+    transform: scale(110%);
+    filter: brightness(115%);
+}
+.sticker{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    width: 50px;
+    
+}

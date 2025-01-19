@@ -1,0 +1,73 @@
+* {
+    margin: 0
+}
+body{
+    background-color: palevioletred;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-family: "MedievalSharp", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#resultado{
+    font-family: "MedievalSharp", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.passContainer{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;    
+    margin-top: 50px;
+
+
+}
+.boton{
+    text-align: center;
+    margin-top: 50px;   
+    
+}
+button{
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+    padding: 5px;
+}
+button:hover{
+    filter: brightness(150%);
+    transform: scale(110%);
+}
+#cuadro1{
+    padding: 5px;
+    color: rgb(5, 149, 185);
+    font-weight: bolder;
+    border: 3px solid rgb(5, 149, 185);
+}
+#cuadro2{
+    padding: 5px;
+    color: rgb(5, 149, 185);
+    font-weight: bolder;
+    border: 3px solid rgb(5, 149, 185);
+}
+#cuadro3{
+    padding: 5px;
+    color: rgb(5, 149, 185);
+    font-weight: bolder;
+    border: 3px solid rgb(5, 149, 185);
+}
+#cuadro1:hover{
+    filter: brightness(150%);
+    transform: scale(110%);
+}
+#cuadro2:hover{
+    filter: brightness(150%);
+    transform: scale(110%);
+}
+#cuadro3:hover{
+    filter: brightness(150%);
+    transform: scale(110%);
+}

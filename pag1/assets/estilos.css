@@ -1,0 +1,15 @@
+* {
+    margin: 0
+}
+
+img {
+    margin: 50px;
+    width: 800px; 
+    /* transition: border 0.3s ease;  */
+    transition: all 0.3s ease;
+  }
+
+img:hover{
+    transform: scale(102%);
+    filter: brightness(115%);
+}
