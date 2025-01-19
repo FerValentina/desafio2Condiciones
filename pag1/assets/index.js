@@ -1,5 +1,6 @@
 
 const imagen = document.querySelector(".imagen");
+
 let tieneBorde = false;
 
 imagen.onclick= function(){
