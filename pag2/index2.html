@@ -7,10 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío 1 - JavaScript</title>
     <link rel="stylesheet" href="./assets/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon2.png" type="image/x-icon">
 </head>
 
 <body>
+    <h1>Puedes llevar hasta 10 Stickers</h1>
     <div class="stickerContainer">
+        
         <div class="sticker">
             <img class="imagen" src="./assets/img/dobby1.png" alt="dobby" >
             <input type="number" id="sticker1" min="0" max="10" value="0">
@@ -28,31 +34,14 @@
             <input type="number" id="sticker4" min="0" max="10" value="0">
         </div>
     </div>
+   
+    <section class="verificacion">
     <button id="verificar">Verificar</button>
     <p id="resultado"></p>
-
-    <!-- <section>
-        <div class="card">
-            <div class="img-card"></div>              
-              <img src="./assets/img/nb.png" alt="pc">
-              <h6>Laptop Gamer AMD</h6>
-              <br>
-              <p>Precio base: $<span class="precio-inicial">400.000</span> </p>
-              <br>  
-              <p>Cantidad:
-                <span class="cantidad">0</span>
-                <button class="mas">+</button>
-                <button class="menos">-</button>
-              </p>
-            </div>
-
-        </div>
     </section>
-
-    <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total"></span> </p>
-    </div> -->
-
+    
+    
+  
     <script src="./assets/index.js"></script>
 </body>
 </html>

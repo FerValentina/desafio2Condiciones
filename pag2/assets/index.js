@@ -12,7 +12,7 @@ botonVerificar.onclick = function(){
     const cantidad3 = Number(inputSticker3.value) || 0;
     const cantidad4 = Number(inputSticker4.value) || 0;
     
-    const totalStickers = cantidad1 + cantidad2 + cantidad3;
+    const totalStickers = cantidad1 + cantidad2 + cantidad3 + cantidad4;
 
     if (totalStickers <= 10) {
         resultado.textContent = `Llevas ${totalStickers} stickers`;
